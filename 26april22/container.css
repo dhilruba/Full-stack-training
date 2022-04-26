@@ -1,0 +1,17 @@
+main{
+    width: 80%;
+    margin: 0 auto;
+    border: 5px solid black;
+    height: 500px;
+    display: flex;
+}
+main .sidebar{
+    background-color: black;
+    flex: 1 300px;
+
+}
+main .maincontent {
+    background-color: blue;
+    flex: 1 600px;
+
+}
